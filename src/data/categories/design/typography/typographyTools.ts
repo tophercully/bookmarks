@@ -19,6 +19,11 @@ const typographyTools: Tool[] = [
     description: "Lots of free dependable fonts.",
     link: "https://uncut.wtf/",
   },
+  {
+    name: "symbl.cc",
+    description: "Well organized and searchable unicode table.",
+    link: "https://symbl.cc/en/unicode-table/#miscellaneous-symbols-and-arrows",
+  },
 ];
 
 export default typographyTools;

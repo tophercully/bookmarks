@@ -7,8 +7,9 @@ export default function Home() {
     <div className="flex w-full flex-col gap-8">
       <div className="flex flex-col">
         <div className="flex items-end gap-1">
-          <h1 className="text-7xl">⛰Useful</h1>
-          <span className="text-base-300">.chrismccully.com</span>
+          <h1 className="text-7xl">
+            <span>⛰&#xFE0E;</span> Useful
+          </h1>
         </div>
         <h2 className="text-xl text-base-400">
           Tools and resources I use daily when creating programs for the web
