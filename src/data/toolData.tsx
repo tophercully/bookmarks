@@ -6,6 +6,7 @@ import templateTools from "./categories/development/templates/templateTools";
 import organizationTools from "./categories/development/organization/organizationTools";
 import colorDevTools from "./categories/development/color/colorDevTools";
 import validationTools from "./categories/product/validation/validationTools";
+import shaderTools from "./categories/creativeCoding/shaders/shaderTools";
 
 const toolData = [
   {
@@ -86,8 +87,8 @@ const toolData = [
     ),
     subcategories: [
       {
-        name: "Ideation",
-        tools: ideationTools,
+        name: "Shaders",
+        tools: shaderTools,
       },
     ],
   },

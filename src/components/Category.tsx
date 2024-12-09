@@ -17,7 +17,7 @@ export const Category = ({
 }) => (
   <section
     id={category}
-    className={`flex w-full border-b border-${color}-100 flex-col items-start gap-4 p-4 pb-8 pt-8 lg:flex-row`}
+    className={`flex w-full border-b border-${color}-100 flex-col items-start gap-4 py-8 lg:flex-row`}
   >
     <h2
       className={`flex w-full items-center gap-2 lg:w-1/3 text-${color}-500 text-5xl font-thin`}

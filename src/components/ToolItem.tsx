@@ -32,7 +32,6 @@ const ToolItem = ({ tool, color }: Props) => {
         </Link>
       </h4>
       <p className="flex flex-wrap text-base-600">- {description}</p>
-      {/* {tags && <p>Tags: {tags.join(", ")}</p>} */}
     </li>
   );
 };
