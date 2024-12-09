@@ -6,6 +6,23 @@ module.exports = {
     "src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    {
+      pattern:
+        /bg-(red|amber|yellow|lime|emerald|teal|cyan|sky|indigo|violet|fuchsia|purple|pink|rose|green|blue|orange)-(50|100|200|300|400|500|600|700|800|900|950)/, // You can display all the colors that you need
+      variants: ["lg", "hover", "focus", "lg:hover"],
+    },
+    {
+      pattern:
+        /text-(red|amber|yellow|lime|emerald|teal|cyan|sky|indigo|violet|fuchsia|purple|pink|rose|green|blue|orange)-(50|100|200|300|400|500|600|700|800|900|950)/,
+      variants: ["lg", "hover", "focus", "lg:hover"],
+    },
+    {
+      pattern:
+        /border-(red|amber|yellow|lime|emerald|teal|cyan|sky|indigo|violet|fuchsia|purple|pink|rose|green|blue|orange)-(50|100|200|300|400|500|600|700|800|900|950)/,
+      variants: ["lg", "hover", "focus", "lg:hover"],
+    },
+  ],
   theme: {
     extend: {
       keyframes: {
@@ -46,6 +63,7 @@ module.exports = {
           900: "#101010",
           950: "#030303",
         },
+        bone: "#f3f3f1",
         error: "#dc2626",
         success: "#16a34a",
         info: "#1d4ed8",

@@ -9,6 +9,11 @@ const overusedGrotesk = localFont({
   variable: "--overused-grotesk",
   weight: "100 900",
 });
+// const zodiak = localFont({
+//   src: "./fonts/Zodiak-Variable.ttf",
+//   variable: "--zodiak",
+//   weight: "100 900",
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${overusedGrotesk.className} flex h-fit min-h-[100svh] w-screen flex-col items-center justify-center overflow-y-auto p-4 pt-0 antialiased md:p-10`}
+        className={`${overusedGrotesk.className} flex h-fit min-h-[100svh] w-screen flex-col items-center justify-center overflow-y-auto bg-white p-4 pt-0 text-black antialiased md:p-10`}
       >
         {children}
         <Analytics />
